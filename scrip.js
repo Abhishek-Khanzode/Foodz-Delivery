@@ -11,22 +11,22 @@ menuIcon.onclick = () => {
 
 
 var arr = [
-    {name: "car", image: "./assets/images/bg.webp"},
-    {name: "ros", image: "./assets/images/bg.webp"},
-    {name: "boi", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"},
-    {name: "dee", image: "./assets/images/bg.webp"}
+    {name: "car", image: "./assets/images/bg.jpg"},
+    {name: "ros", image: "./assets/images/bg.jpg"},
+    {name: "boi", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"},
+    {name: "dee", image: "./assets/images/bg.jpg"}
     // {name: "dee", image: "./assets/images/bg.jpg"}
 ]
 
@@ -36,7 +36,7 @@ function showTheCards(){
     var clutter = "";
     arr.forEach(function(obj){
         clutter += `<div class="card">
-        <img src="/assets/images/bg.webp" alt="">
+        <img src="/assets/images/bg.jpg" alt="">
         <h2>halwa</h2>
         <p>20$</p>
     </div>`;
